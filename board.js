@@ -19,7 +19,7 @@ $(function () {
             "\n";
 
         for(var n = 0; n < 8; n++) {
-            tableData += "<td id='" + n + "'>"
+            tableData += "<td id='" + i + ":" + n + "'>"
                 + "Location: " + i + ":" +
                 n +
                 "</td>" + "\n";
