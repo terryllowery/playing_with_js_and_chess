@@ -15,11 +15,11 @@ $(function () {
     for (var i = 0; i < 8; i++) {
         var tableData = "";
         // var tableRow = document.createElement('tr');
-        row += "<tr class='" + i + "'>" +
+        row += "<tr id='row_" + i + "'>" +
             "\n";
 
         for(var n = 0; n < 8; n++) {
-            tableData += "<td id='" + i + ":" + n + "'>"
+            tableData += "<td id='col_" + n + "'>"
                 + "Location: " + i + ":" +
                 n +
                 "</td>" + "\n";
@@ -27,8 +27,8 @@ $(function () {
             // table.appendChild(tableRow);
         }
         row += tableData + "</tr>" + "\n";
-        console.info(i);
-        console.info(row);
+        // console.info(i);
+        // console.info(row);
 
 
     }
