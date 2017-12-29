@@ -16,6 +16,7 @@
     height: 100px;
     width: 100px;
     border-collapse: collapse;
+    color: red;
 }
 
 #board tr:nth-child(odd) td:nth-child(even),
